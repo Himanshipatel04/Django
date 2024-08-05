@@ -3,4 +3,12 @@
 
 {% block content %}
 <h1>Hello from chai app</h1>
+{% for chai in chais %}
+   <div class="chai_item flex items-center justify-center gap-10 m-20">
+    <img class=" h-52" src="{{chai.image.url}}" alt="">
+    <p>{{chai.name}}</p>
+    <p>{{chai.date_added}}</p>
+   </div>
+{% endfor %} 
 {% endblock content %}
+
