@@ -2,13 +2,17 @@
 {% block title %} All chai {% endblock title %}
 
 {% block content %}
-<h1>Hello from chai app</h1>
-{% for chai in chais %}
-   <div class="chai_item flex items-center justify-center gap-10 m-20">
-    <img class=" h-52" src="{{chai.image.url}}" alt="">
-    <p>{{chai.name}}</p>
+<h1 class="m-4">Hello from chai app</h1>
+<div class="grid grid-cols-4 gap-5 m-5">
+    {% for chai in chais %}
+   <div class="bg-gray-500 p-5">
+    <img class=" h-48" src="{{chai.image.url}}" alt="">
+    <p class="my-2 font-bold text-2xl">{{chai.name}}</p>
     <p>{{chai.date_added}}</p>
+    <a href="{% url 'chai_details' chai.id %}"><button class="p-2 bg-white text-black mt-3 rounded font-bold text-xl">Click here!</button></a>
    </div>
-{% endfor %} 
+{% endfor %}
+</div>
+ 
 {% endblock content %}
 
