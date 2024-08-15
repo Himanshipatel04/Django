@@ -787,24 +787,12 @@ select {
   position: static;
 }
 
-.m-20 {
-  margin: 5rem;
-}
-
-.m-10 {
-  margin: 2.5rem;
-}
-
 .m-4 {
   margin: 1rem;
 }
 
 .m-5 {
   margin: 1.25rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
 }
 
 .mx-auto {
@@ -815,15 +803,6 @@ select {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .mt-3 {
@@ -842,32 +821,12 @@ select {
   display: grid;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-52 {
-  height: 13rem;
-}
-
 .h-48 {
   height: 12rem;
 }
 
-.h-72 {
-  height: 18rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.h-screen {
+  height: 100vh;
 }
 
 .grid-cols-4 {
@@ -882,22 +841,6 @@ select {
   justify-content: center;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-7 {
-  gap: 1.75rem;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
@@ -906,9 +849,9 @@ select {
   border-radius: 0.25rem;
 }
 
-.bg-blue-400 {
+.bg-blue-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
@@ -916,9 +859,9 @@ select {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
-.bg-green-300 {
+.bg-gray-500 {
   --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .bg-gray-600 {
@@ -926,41 +869,31 @@ select {
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .p-2 {
   padding: 0.5rem;
 }
 
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+.p-5 {
+  padding: 1.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-xl {
